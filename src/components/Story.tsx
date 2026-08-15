@@ -18,7 +18,7 @@ export function Story() {
           <blockquote><span>„</span>{t.story.quote}</blockquote>
         </div>
         <figure className="story-image">
-          <img src="/images/story/interior-table.webp" alt={t.story.imageAlt} loading="lazy" />
+		<img src={`${import.meta.env.BASE_URL}images/story/interior-table.webp`} alt={t.story.imageAlt} loading="lazy"/>
           <figcaption><span>Piotrkowska 22</span><span>{t.story.city}</span></figcaption>
         </figure>
       </div>
