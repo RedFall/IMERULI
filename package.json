@@ -1,0 +1,26 @@
+{
+  "name": "imeruli-emenu",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run validate:i18n && tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --pretty false",
+    "validate:i18n": "node scripts/validate-i18n.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "page-flip": "^2.0.7",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "playwright-core": "^1.62.1"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "title": "IMERULI — restauracja gruzińska w Łodzi",
+    "description": "Poznaj menu elektroniczne restauracji gruzińskiej IMERULI w Łodzi."
+  },
+  "language": {
+    "selectorLabel": "Wybierz język",
+    "polish": "Polski",
+    "english": "English",
+    "russian": "Русский",
+    "ukrainian": "Українська"
+  },
+  "app": {
+    "skipToMenu": "Przejdź do menu"
+  },
+  "header": {
+    "brandAria": "IMERULI — strona główna",
+    "mainNavigation": "Główna nawigacja",
+    "mobileNavigation": "Mobilna nawigacja",
+    "menu": "Menu",
+    "about": "O nas",
+    "reviews": "Opinie",
+    "contact": "Kontakt",
+    "seeMenu": "Zobacz menu",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu"
+  },
+  "hero": {
+    "sectionLabel": "Wprowadzenie do restauracji",
+    "eyebrow": "Restauracja gruzińska · Łódź",
+    "titleFirst": "Przez odległość",
+    "titleSecond": "i czas",
+    "finalEyebrow": "IMERULI · Gruzja bliżej niż myślisz",
+    "finalTitleFirst": "Poczuj smak",
+    "finalTitleSecond": "Gruzji.",
+    "cta": "Zobacz menu",
+    "actionFirst": "Otwórz kartę przed wizytą",
+    "actionSecond": "albo przy restauracyjnym stole.",
+    "scroll": "Przewiń"
+  },
+  "menu": {
+    "sectionName": "Nasze menu",
+    "sectionHint": "Przesuń w bok, aby przewrócić",
+    "eyebrow": "Wszystko powstaje na miejscu",
+    "title": "Otwórz kartę",
+    "description": "Wybierz kategorię albo przewracaj strony. Ceny podane są w złotych, a waga dotyczy gotowego dania.",
+    "tableOfContents": "Spis treści",
+    "gestureHint": "↕ przewiń · ↔ przewróć",
+    "electronicMenu": "Menu elektroniczne",
+    "information": "Informacje",
+    "featured": "Nasz wybór",
+    "allergens": "alergeny",
+    "spiceLevel": "Poziom ostrości {level}",
+    "spicy": "ostre",
+    "seasonal": "sezonowe",
+    "unavailable": "Chwilowo niedostępne",
+    "locationFooter": "Łódź · Piotrkowska 22",
+    "infoEyebrow": "Dobrze wiedzieć",
+    "infoTitle": "Przy jednym stole",
+    "infoLead": "Gruzińskie dania najlepiej smakują, kiedy zamawia się kilka i dzieli z całą kompanią.",
+    "portion": "Porcja",
+    "portionInfo": "Waga dotyczy gotowego dania i może nieznacznie się różnić.",
+    "allergensTitle": "Alergeny",
+    "allergensInfo": "Zapytaj obsługę o pełną listę i możliwe śladowe ilości.",
+    "availability": "Dostępność",
+    "availabilityInfo": "Niektóre potrawy przygotowujemy sezonowo lub do wyczerpania.",
+    "meetOurStory": "Poznaj naszą historię",
+    "seeYouAtTable": "Do zobaczenia przy stole",
+    "coverSubtitle": "Menu · Łódź",
+    "previousEdge": "Przewróć na poprzednią stronę",
+    "nextEdge": "Przewróć na następną stronę",
+    "pageAnnouncement": "{category}, strony {from}–{to} z {total}",
+    "previousPage": "Poprzednia strona",
+    "nextPage": "Następna strona",
+    "previous": "Poprzednia",
+    "next": "Następna",
+    "quickChoice": "Szybki wybór",
+    "closeToc": "Zamknij spis treści"
+  },
+  "menuData": {
+    "categories": {
+      "przystawki": { "name": "Przystawki", "description": "Małe talerze do wspólnego stołu — zioła, warzywa i orzechy." },
+      "chinkali": { "name": "Chinkali", "description": "Ręcznie lepione sakiewki. Najpierw wypij bulion, potem zjedz resztę." },
+      "chaczapuri": { "name": "Chaczapuri", "description": "Gorące pieczywo, dojrzewający ser i receptury z różnych regionów Gruzji." },
+      "dania-glowne": { "name": "Dania główne", "description": "Długo gotowane sosy, mięso z grilla i hojna porcja świeżych ziół." },
+      "desery": { "name": "Desery", "description": "Orzechy, miód i owoce — spokojne zakończenie gruzińskiej uczty." }
+    },
+    "dishes": {
+      "pchali": { "name": "Pchali trio", "description": "Burak, szpinak i fasola z orzechami włoskimi, czosnkiem, granatem i kolendrą.", "serving": "240 g", "imageAlt": "Trzy kolorowe porcje pchali z granatem na ceramicznym talerzu", "allergens": ["orzechy włoskie"], "dietaryTags": ["wegetariańskie"] },
+      "badrijani": { "name": "Badrijani nigvzit", "description": "Roladki z bakłażana z kremem orzechowym, gruzińskimi przyprawami i granatem.", "serving": "220 g", "imageAlt": "Roladki z bakłażana z pastą orzechową i pestkami granatu", "allergens": ["orzechy włoskie"], "dietaryTags": ["wegańskie"] },
+      "chinkali-classic": { "name": "Chinkali tradycyjne", "description": "Soczysty farsz wołowo-wieprzowy, kolendra, cebula i czarny pieprz.", "serving": "5 szt. · ok. 350 g", "imageAlt": "Pięć tradycyjnych chinkali na ciemnym ceramicznym talerzu", "allergens": ["gluten"], "dietaryTags": [] },
+      "chinkali-mushroom": { "name": "Chinkali z grzybami", "description": "Pieczarki, boczniaki, cebula, estragon i świeżo mielony pieprz.", "serving": "5 szt. · ok. 330 g", "imageAlt": "Chinkali z grzybami oprószone czarnym pieprzem", "allergens": ["gluten"], "dietaryTags": ["wegańskie"] },
+      "imeruli": { "name": "Chaczapuri Imeruli", "description": "Okrągły placek z miękkim, lekko słonym nadzieniem serowym.", "serving": "430 g", "imageAlt": "Okrągłe chaczapuri imeruli przekrojone na kawałki", "allergens": ["gluten", "mleko"], "dietaryTags": ["wegetariańskie"] },
+      "adjaruli": { "name": "Chaczapuri Adżaruli", "description": "Łódka z ciasta wypełniona serem, żółtkiem i masłem.", "serving": "470 g", "imageAlt": "Chaczapuri adżaruli w kształcie łódki z żółtkiem", "allergens": ["gluten", "mleko", "jaja"], "dietaryTags": ["wegetariańskie"] },
+      "czaszuszuli": { "name": "Czaszuszuli", "description": "Krucha wołowina duszona z pomidorami, papryką, kolendrą i adżyką.", "serving": "390 g", "imageAlt": "Wołowina czaszuszuli w glinianej misie ze świeżymi ziołami", "allergens": [], "dietaryTags": [] },
+      "odżachuri": { "name": "Odżachuri", "description": "Wieprzowina z pieczonymi ziemniakami, cebulą, czosnkiem i ziołami.", "serving": "450 g", "imageAlt": "Odżachuri z mięsem i ziemniakami podane na żeliwnej patelni", "allergens": [], "dietaryTags": [] },
+      "pelamushi": { "name": "Pelamushi", "description": "Gruziński deser z soku winogronowego z prażonymi orzechami.", "serving": "180 g", "imageAlt": "Pelamushi z winogronami i orzechami na jasnym talerzu", "allergens": ["orzechy włoskie"], "dietaryTags": ["wegańskie"] },
+      "matsoni": { "name": "Matsoni z miodem", "description": "Delikatny jogurt kaukaski, miód, orzechy i sezonowe owoce.", "serving": "200 g", "imageAlt": "Kremowe matsoni z miodem, orzechami i owocami", "allergens": ["mleko", "orzechy włoskie"], "dietaryTags": ["wegetariańskie"] }
+    }
+  },
+  "story": {
+    "sectionName": "Nasza historia",
+    "sectionPath": "Od Imeretii do Łodzi",
+    "eyebrow": "Domowe receptury · otwarty stół",
+    "title": "Tutaj Gruzja nie jest daleko.",
+    "lead": "IMERULI powstało z tęsknoty za stołem, przy którym zawsze znajdzie się miejsce dla jeszcze jednej osoby.",
+    "columnOne": "Gotujemy tak, by można było dzielić się wszystkim: chaczapuri prosto z pieca, chinkali lepionymi na miejscu i daniami pachnącymi kolendrą, estragonem oraz świeżo mielonym pieprzem.",
+    "columnTwo": "Nazwa prowadzi do Imeretii — zielonego regionu zachodniej Gruzji, gdzie gościnność jest częścią codzienności, a posiłek nigdy nie kończy się na jednym talerzu.",
+    "quote": "Gość jest darem. Stół jest miejscem spotkania.",
+    "imageAlt": "Nakryty stół w ciepłym wnętrzu restauracji IMERULI",
+    "city": "Łódź",
+    "findUs": "Znajdź nas",
+    "locationTitle": "W sercu Łodzi",
+    "mondayThursday": "Pon.—Czw.",
+    "fridaySaturday": "Pt.—Sob.",
+    "sunday": "Niedziela",
+    "route": "Wyznacz trasę",
+    "mapAria": "Otwórz lokalizację IMERULI w Google Maps",
+    "openMaps": "Otwórz w Google Maps"
+  },
+  "reviews": {
+    "sectionName": "Opinie gości",
+    "eyebrow": "Mówią o nas",
+    "title": "Dobre słowo zostaje na długo.",
+    "ratingAria": "5 na 5 gwiazdek",
+    "ratingDemo": "Ocena demonstracyjna",
+    "previous": "Poprzednie opinie",
+    "next": "Następne opinie",
+    "all": "Zobacz wszystkie opinie",
+    "items": [
+      { "text": "Chinkali były pełne aromatycznego bulionu, a chaczapuri trafiło na stół jeszcze gorące. Wrócimy z przyjaciółmi.", "author": "Gość IMERULI", "date": "Google · opinia przykładowa" },
+      { "text": "Ciepłe, spokojne wnętrze i obsługa, która naprawdę potrafi opowiedzieć o każdym daniu.", "author": "Gość IMERULI", "date": "Google · opinia przykładowa" },
+      { "text": "Pchali, bakłażany z orzechami i domowa lemoniada — świetny początek wspólnej kolacji.", "author": "Gość IMERULI", "date": "Google · opinia przykładowa" },
+      { "text": "Smaki są wyraziste, porcje konkretne, a atmosfera bezpretensjonalna. Dokładnie takiego miejsca szukaliśmy.", "author": "Gość IMERULI", "date": "Google · opinia przykładowa" }
+    ]
+  },
+  "footer": {
+    "titleFirst": "Do zobaczenia",
+    "titleSecond": "przy stole.",
+    "address": "Adres",
+    "contact": "Kontakt",
+    "hours": "Godziny",
+    "hoursText": "Pon.—Czw. 12—22\nPt.—Sob. 12—23\nNiedz. 12—21",
+    "talk": "Porozmawiajmy",
+    "formTitleFirst": "Zostaw email.",
+    "formTitleSecond": "Odpowiemy.",
+    "successTitle": "Wiadomość jest gotowa.",
+    "successText": "Wyślij przygotowaną wiadomość w swoim programie pocztowym, aby przekazać nam swój adres.",
+    "backToForm": "Wróć do formularza",
+    "emailLabel": "Twój adres email",
+    "emailAction": "Przygotuj wiadomość email",
+    "consentBefore": "Akceptuję",
+    "privacyPolicy": "politykę prywatności",
+    "consentAfter": "i zgadzam się na kontakt w sprawie mojego zapytania.",
+    "formError": "Sprawdź email i zaznacz zgodę.",
+    "noNewsletter": "Nie wysyłamy newslettera bez osobnej zgody.",
+    "mailSubject": "Prośba o kontakt — IMERULI",
+    "mailBody": "Dzień dobry,\n\nproszę o kontakt zwrotny pod adresem: {email}\n\nPozdrawiam",
+    "legalLinks": "Linki prawne",
+    "privacy": "Prywatność",
+    "cookies": "Cookies",
+    "cookieStatus": "Stan cookies"
+  },
+  "cookies": {
+    "close": "Zamknij ustawienia",
+    "eyebrow": "Stan prywatności",
+    "title": "Bez śledzących cookies.",
+    "description": "Ta wersja strony nie uruchamia analityki, reklam ani osadzonej mapy Google. Nie ma więc opcjonalnej zgody do zapisania. Linki do Google otwierają zewnętrzny serwis dopiero po Twoim kliknięciu.",
+    "necessary": "Niezbędne",
+    "necessaryStatus": "Preferencja języka w localStorage",
+    "analytics": "Analityczne",
+    "marketing": "Marketingowe",
+    "googleContent": "Treści Google",
+    "disabled": "Wyłączone",
+    "notEmbedded": "Nie są osadzane",
+    "policy": "Polityka cookies",
+    "understand": "Rozumiem"
+  },
+  "legal": {
+    "backAria": "IMERULI — wróć na stronę główną",
+    "back": "Wróć do strony",
+    "eyebrow": "IMERULI · dokument informacyjny",
+    "draftTitle": "Wersja robocza.",
+    "draftText": "Dane restauracji są demonstracyjne. Dokument trzeba uzupełnić danymi właściciela, hostingu i rzeczywistych integracji oraz zweryfikować przed publikacją.",
+    "lead": "Poniższy tekst opisuje faktyczne zachowanie obecnej wersji strony i nie deklaruje usług, które nie zostały jeszcze podłączone.",
+    "related": "Powiązane dokumenty",
+    "readCookies": "Przeczytaj politykę cookies",
+    "readPrivacy": "Przeczytaj politykę prywatności",
+    "backToImeruli": "Wróć do IMERULI",
+    "privacy": {
+      "title": "Polityka prywatności",
+      "sections": [
+        { "title": "1. Administrator danych", "content": "Administratorem danych będzie podmiot prowadzący restaurację IMERULI. Przed publikacją należy uzupełnić pełną nazwę prawną, adres siedziby, NIP oraz właściwy adres kontaktowy administratora." },
+        { "title": "2. Formularz kontaktowy", "content": "Jeżeli podasz adres e-mail, zostanie on wykorzystany wyłącznie do odpowiedzi na Twoją prośbę o kontakt. Produkcyjna wersja musi wskazywać podstawę prawną, okres przechowywania danych, operatora skrzynki pocztowej oraz odbiorców danych. Obecny formularz jest demonstracyjny i nie wysyła danych na serwer." },
+        { "title": "3. Dane techniczne", "content": "Serwer hostingowy może zapisywać standardowe logi techniczne, między innymi adres IP, czas żądania, adres zasobu i informacje o przeglądarce. Przed publikacją należy wpisać dostawcę hostingu, cel, podstawę oraz czas retencji logów." },
+        { "title": "4. Odbiorcy i transfery", "content": "W tej wersji strona nie osadza Google Maps, Google Reviews ani narzędzi analitycznych. Kliknięcie zewnętrznego linku do Google powoduje opuszczenie strony IMERULI i podlega zasadom prywatności Google. Każda przyszła integracja musi zostać opisana przed jej uruchomieniem." },
+        { "title": "5. Twoje prawa", "content": "W zależności od podstawy przetwarzania możesz mieć prawo dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, sprzeciwu, przeniesienia danych oraz wycofania zgody. Możesz również złożyć skargę do Prezesa Urzędu Ochrony Danych Osobowych." },
+        { "title": "6. Kontakt", "content": "Adres kontaktowy w sprawach prywatności przed publikacją: [uzupełnić prawidłowy e-mail administratora]." }
+      ]
+    },
+    "cookiePolicy": {
+      "title": "Polityka cookies",
+      "sections": [
+        { "title": "1. Aktualny stan", "content": "Obecna wersja strony nie zapisuje cookies analitycznych ani marketingowych i nie korzysta z identyfikatorów reklamowych. Nie osadza również interaktywnej mapy ani opinii Google." },
+        { "title": "2. Menu i ustawienia", "content": "Wybrany język jest zapisywany w localStorage przeglądarki, aby zachować preferencję przy kolejnej wizycie. Aktywna strona menu pozostaje wyłącznie w stanie aplikacji podczas bieżącej wizyty." },
+        { "title": "3. Linki zewnętrzne", "content": "Mapa, trasa i profil opinii otwierają Google dopiero po świadomym kliknięciu linku. Od tego momentu zastosowanie mają ustawienia przeglądarki oraz polityki zewnętrznego serwisu." },
+        { "title": "4. Przyszłe integracje", "content": "Jeżeli właściciel uruchomi analitykę, osadzoną mapę, widget opinii lub marketing, usługi te muszą pozostać zablokowane do czasu odpowiedniej decyzji użytkownika. Odmowa nie może blokować menu, kontaktów ani nawigacji." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Serve the Vite production build while OSPanel is still using the project root.
+RewriteCond %{DOCUMENT_ROOT}/dist/$1 -f
+RewriteRule ^(.+)$ dist/$1 [L]
+
+# SPA entry point. Existing project files stay accessible to local tooling.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ dist/index.html [L]
+
+DirectoryIndex dist/index.html
