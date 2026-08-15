@@ -62,11 +62,11 @@ export function Hero() {
       <div className="interior-hero-stage">
         {visualsEnabled && (
           <div className="interior-hero-media" style={mediaStyle} aria-hidden="true">
-            <img src="/images/hero/interior-poster.webp" alt="" fetchPriority="high" decoding="async" />
+            <img src="{`${import.meta.env.BASE_URL}images/hero/interior-poster.webp" alt="" fetchPriority="high" decoding="async" />
             {!videoFailed && (
               <video ref={videoRef} muted loop playsInline preload="none" poster="/images/hero/interior-poster.webp" onError={() => setVideoFailed(true)}>
-                <source src="/video/imeruli-interior.webm" type="video/webm" />
-                <source src="/video/imeruli-interior.mp4" type="video/mp4" />
+                <source src="{`${import.meta.env.BASE_URL}video/imeruli-interior.webm" type="video/webm" />
+                <source src="{`${import.meta.env.BASE_URL}video/imeruli-interior.mp4" type="video/mp4" />
               </video>
             )}
             <div className="interior-hero-shade" />
