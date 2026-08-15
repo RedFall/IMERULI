@@ -1,5 +1,7 @@
 import type { Availability } from '../types'
 
+const BASE_URL = import.meta.env.BASE_URL
+
 export interface MenuCatalogDish {
   id: string
   slug: string
@@ -31,11 +33,11 @@ export const menuCatalog: MenuCatalogCategory[] = [
     dishes: [
       {
         id: 'pchali', slug: 'pchali', servingKey: 'pchali', priceMinor: 3200,
-        imageSrc: '{`${import.meta.env.BASE_URL}images/menu/pchali.webp', availability: 'available', featured: true,
+        imageSrc: `${BASE_URL}images/menu/pchali.webp`, availability: 'available', featured: true,
       },
       {
         id: 'badrijani', slug: 'badrijani', servingKey: 'badrijani', priceMinor: 3400,
-        imageSrc: '{`${import.meta.env.BASE_URL}images/menu/badrijani.webp', availability: 'available',
+        imageSrc: `${BASE_URL}images/menu/badrijani.webp`, availability: 'available',
       },
     ],
   },
@@ -46,11 +48,11 @@ export const menuCatalog: MenuCatalogCategory[] = [
     dishes: [
       {
         id: 'chinkali-classic', slug: 'chinkali-tradycyjne', servingKey: 'chinkali-classic', priceMinor: 3800,
-        imageSrc: '{`${import.meta.env.BASE_URL}images/menu/chinkali.webp', availability: 'available', featured: true,
+        imageSrc: `${BASE_URL}images/menu/chinkali.webp`, availability: 'available', featured: true,
       },
       {
         id: 'chinkali-mushroom', slug: 'chinkali-z-grzybami', servingKey: 'chinkali-mushroom', priceMinor: 3600,
-        imageSrc: '{`${import.meta.env.BASE_URL}images/menu/chinkali.webp', availability: 'available',
+        imageSrc: `${BASE_URL}images/menu/chinkali.webp`, availability: 'available',
       },
     ],
   },
@@ -61,11 +63,11 @@ export const menuCatalog: MenuCatalogCategory[] = [
     dishes: [
       {
         id: 'imeruli', slug: 'chaczapuri-imeruli', servingKey: 'imeruli', priceMinor: 4200,
-        imageSrc: '{`${import.meta.env.BASE_URL}images/menu/chaczapuri.webp', availability: 'available', featured: true,
+        imageSrc: `${BASE_URL}images/menu/chaczapuri.webp`, availability: 'available', featured: true,
       },
       {
         id: 'adjaruli', slug: 'chaczapuri-adzaruli', servingKey: 'adjaruli', priceMinor: 4600,
-        imageSrc: '{`${import.meta.env.BASE_URL}images/menu/chaczapuri.webp', availability: 'available',
+        imageSrc: `${BASE_URL}images/menu/chaczapuri.webp`, availability: 'available',
       },
     ],
   },
@@ -76,11 +78,11 @@ export const menuCatalog: MenuCatalogCategory[] = [
     dishes: [
       {
         id: 'czaszuszuli', slug: 'czaszuszuli', servingKey: 'czaszuszuli', priceMinor: 5200,
-        imageSrc: '{`${import.meta.env.BASE_URL}images/menu/chashushuli.webp', spiceLevel: 1, availability: 'available', featured: true,
+        imageSrc: `${BASE_URL}images/menu/chashushuli.webp`, spiceLevel: 1, availability: 'available', featured: true,
       },
       {
         id: 'odżachuri', slug: 'odzachuri', servingKey: 'odżachuri', priceMinor: 4900,
-        imageSrc: '{`${import.meta.env.BASE_URL}images/menu/chashushuli.webp', availability: 'seasonal',
+        imageSrc: `${BASE_URL}images/menu/chashushuli.webp`, availability: 'seasonal',
       },
     ],
   },
@@ -91,11 +93,11 @@ export const menuCatalog: MenuCatalogCategory[] = [
     dishes: [
       {
         id: 'pelamushi', slug: 'pelamushi', servingKey: 'pelamushi', priceMinor: 2400,
-        imageSrc: '{`${import.meta.env.BASE_URL}images/menu/pelamushi.webp', availability: 'available',
+        imageSrc: `${BASE_URL}images/menu/pelamushi.webp`, availability: 'available',
       },
       {
         id: 'matsoni', slug: 'matsoni-z-miodem', servingKey: 'matsoni', priceMinor: 2600,
-        imageSrc: '{`${import.meta.env.BASE_URL}images/menu/pelamushi.webp', availability: 'sold-out',
+        imageSrc: `${BASE_URL}images/menu/pelamushi.webp`, availability: 'sold-out',
       },
     ],
   },
